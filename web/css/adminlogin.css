@@ -1,0 +1,137 @@
+ body{
+    margin: 0%; 
+}
+.loginbg{
+    background-image: url(../images/adminloginbg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 100px 0px 50px 0px;
+}
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 92px;
+    color: white;
+    border: 1px;
+    border-radius: 30px;
+    width: 500px;
+    font-size: 20px;
+    background-color: rgba(45, 41, 41, 0.5);
+    padding: 0px 60px 50px 60px;
+    text-align: center;
+}
+
+.login h1,
+.login h4 {
+    margin-bottom: 0px;
+}
+
+.login p {
+    margin: 0;
+    padding-top: 0;
+}
+
+.log {
+    font-size: 30px;
+    padding: 7px 130px 7px 15px;
+    margin: 3px;
+    outline: none;
+}
+
+.sub {
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    padding: 7px 180px 7px 180px;
+    margin: 3px;
+    margin-bottom: 10px;
+}
+
+.sub:hover {
+    background-color: orange;
+}
+
+.log,
+.sub {
+    border-radius: 50px 50px 50px 50px;
+    border: 0px;
+}
+
+.for {
+    padding-left: 37%;
+}
+
+.for,
+.dk {
+    color: white;
+}
+
+/*footet*/
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    height: 100%;
+    margin: 0px;
+}
+
+footer p {
+    color: #ffffff;
+    margin: 0px;
+}
+
+.comment {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 30px;
+}
+
+.comment p {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.social {
+    padding: 50px 100px;
+}
+
+.button-comment {
+    background-color: rgb(48, 191, 235);
+    border-radius: 28px;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.button-comment:hover{
+    background-color: white;
+}
+
+.foot1{
+    display: flex;
+    align-items: center;
+}
+
+.foot1 h3{
+    padding-left: 15px;
+    font-size: 24px;
+}
+
+.ttll{
+    padding-top: 30px;
+}
+
+.social img{
+    padding: 20px 12px 12px 0;
+}

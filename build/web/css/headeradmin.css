@@ -1,0 +1,58 @@
+/* CSS for header */
+
+body {
+    margin: 0%; 
+}
+
+header li,
+.tags,
+header h1 {
+    padding-left: 0px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    list-style-type: none;
+    font-size: 24px;
+}
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 88px;
+}
+
+.logo img{
+    margin-left: -35px;
+    width: 50%;
+}
+header ul{
+    margin-left: 0px;
+    width: 1350px;
+}
+.navbar li {
+    display: inline-block;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 0px 10px 0 10px;
+}
+
+.navbar li:hover {
+
+    background-color: orange;
+}
+
+.logicon img, .carticon img{
+    width: 170%;
+
+}
+
+.logicon {
+   margin-left: 50px;
+}
+.caticon img{
+   margin-left: 300px;
+}
+.logo-admin{
+    width: 300px;
+}
+/* End Header */

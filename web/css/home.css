@@ -1,0 +1,189 @@
+/* General Styles */
+body {
+    font-family: "Open Sans", sans-serif; /* Modern font with wider browser support */
+    margin: 0;
+    line-height: 1.6; /* Improved readability */
+    background-color: #f8f9fa; /* Subtle background color for better visuals */
+}
+
+/* Hero Section */
+/* Featured Products Section */
+
+
+.container {
+    max-width: 1400px; /* Slightly wider to accommodate more products */
+    margin: 0 auto;
+    padding: 0 40px; /* More padding for better visuals on larger screens */
+}
+
+.filter-buttons {
+    text-align: center; /* Center the buttons */
+    margin-bottom: 40px; /* Add spacing below the buttons */
+}
+
+.filter-buttons button {
+    background-color: #fff;
+    border: none;
+    padding: 15px 30px;
+    margin: 0 10px; /* Adjusted margins for better spacing */
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.filter-buttons button:hover {
+    background-color: #f0f0f0; /* Subtler hover effect */
+}
+
+.filter-buttons button.active {
+    background-color: #007bff; /* Bootstrap blue for active state */
+    color: #fff;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted minmax for larger product items */
+    gap: 40px; /* More spacing between products */
+}
+
+.product-item {
+    text-align: center;
+    padding: 30px;
+    border: none; /* Remove border for a cleaner look */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle box shadow for depth */
+    border-radius: 10px; /* More pronounced rounded corners */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.product-item:hover {
+    transform: translateY(-5px); /* Elevate slightly on hover */
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Add spacing below image */
+}
+
+.product-item h2 {
+    font-size: 1.2em; /* Slightly larger font for titles */
+    margin: 0 0 10px;
+}
+
+.product-item .price {
+    font-weight: bold;
+    font-size: 1.1em; /* Larger price font */
+    margin-bottom: 15px;
+}
+
+
+
+.hero-content {
+    padding: 100px 0;
+}
+
+.banner-content {
+    text-align: center; /* Center the banner content */
+}
+
+.trending-now {
+    /* Add your styles for the "Trending Now" section */
+    padding: 80px 0; /* Increased padding for more breathing room */
+    background-color: #f8f9fa; /* Light background color for the section */
+    text-align: center; /* Center the content */
+}
+
+.trending-now h2 {
+    font-size: 2em; /* Larger font size for the section title */
+    margin-bottom: 40px; /* Add spacing below the title */
+}
+
+.trending-now .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted minmax for larger product items */
+    gap: 40px; /* More spacing between products */
+}
+
+.trending-now .product-item {
+    text-align: center;
+    padding: 30px;
+    border: none; /* Remove border for a cleaner look */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle box shadow for depth */
+    border-radius: 1px; /* More pronounced rounded corners */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.trending-now .product-item:hover {
+    transform: translateY(-5px); /* Elevate slightly on hover */
+}
+
+.trending-now .product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Add spacing below image */
+}
+
+.trending-now .product-item h2 {
+    font-size: 1.2em; /* Slightly larger font for titles */
+    margin: 0 0 10px;
+}
+
+.trending-now .product-item .price {
+    font-weight: bold;
+    font-size: 1.1em; /* Larger price font */
+    margin-bottom: 15px;
+}
+
+.trending-now .product-item del {
+    color: #888; 
+    font-size: 0.9em;
+}
+/* =============== About scroll bar =============== */
+
+:root {
+    --primary-color: rgb(163, 163, 163);
+    /* Màu gốc của bạn */
+    --scroll-thumb-color: #d94f5c;
+    /* Màu của thanh kéo */
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+}
+
+/* Track là phần nền của thanh cuộn */
+::-webkit-scrollbar-track {
+    background-color: var(white);
+    /* Sử dụng màu gốc */
+}
+
+/* Thumb là thanh kéo mà bạn kéo để di chuyển thanh cuộn */
+::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-thumb-color);
+    /* Sử dụng màu của thanh kéo */
+    border-radius: 5px;
+}
+
+/* Hover Thumb là màu khi di chuột qua thanh cuộn */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #d43040;
+    /* Màu khi hover */
+}
+
+.scroll-top-icon {
+    visibility: hidden;
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    font-size: var(3rem);
+    color: var(--scroll-thumb-color);
+    /* Sử dụng màu của thanh kéo */
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.show-scroll {
+    visibility: visible;
+}

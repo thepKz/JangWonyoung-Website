@@ -1,0 +1,222 @@
+
+
+/* CSS for cart */
+.bigcart h1{
+    font-size: 40px;
+}
+.bigcart h3{
+    font-size: 25px;
+}
+.bigcart h2{
+    font-size: 35px;
+}
+
+.cart{
+    display: flex;
+    /* justify-content: space-around;  */
+}
+.form, .list{
+    margin: 50px 25px 50px 25px;
+    
+}
+.form{
+    width: 40%;
+}
+.list{
+    width: 60%;
+}
+.inp{
+    border: black 1px solid;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px 15px 15px 15px;
+    outline: none;
+    margin: 10px 10px 10px 30px;
+    
+}
+.inp1{
+    border: black 1px solid;
+    border-radius: 50px;
+    margin: 10px 10px 10px 30px;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    width: 80%;
+    height: 7%;
+}
+
+.inp1 img{
+    margin: 0 20px 0 10px;
+}
+
+.liinp{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 70%;
+    padding: 15px 270px 15px 25px;
+    
+    border-radius: 50px;
+    outline: none;
+}
+.liinp1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 20%;
+    padding: 15px 25px 15px 25px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+.liinp1:hover{
+    background-color: orange;
+}
+.ttoan{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    width: 90%;
+    margin-left: 50px;
+    border-radius: 50px;
+    padding: 20px 25px 20px 25px;
+    color: white;
+    background-color: black;
+    
+    
+}
+.ttoan:hover{
+    background-color: orange;
+}
+/* End cart */
+/*payment*/
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+input[type="radio"][id^="cb"] {
+  display: none;
+}
+
+label {
+  border: 1px solid #fff;
+  padding: 10px;
+  display: block;
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+}
+
+label:before {
+  background-color: white;
+  color: white;
+  content: "";
+  display: block;
+  border-radius: 50%;
+  border: 1px solid grey;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 28px;
+  transition-duration: 0.4s;
+  transform: scale(0);
+}
+
+label img {
+  height: 100px;
+  width: 100px;
+  transition-duration: 0.2s;
+  transform-origin: 50% 50%;
+}
+
+:checked + label {
+  border-color: #ddd;
+}
+
+:checked + label:before {
+  content: "✓";
+  background-color: grey;
+  transform: scale(1);
+}
+
+:checked + label img {
+  transform: scale(0.9);
+  box-shadow: 0 0 5px #333;
+  z-index: -1;
+}
+/*end payment*/
+/* cart  detail*/
+.describ{
+    display: flex;
+    justify-content: space-between;
+}
+.cartimg img{
+    border-radius: 45px;
+    width: 150px;
+}
+.cartimg{
+   margin-right: 30px;
+}
+.cart-descrb{
+    display: flex;
+}
+.cartdetails{
+}
+
+.color-box{
+    width: 100px;
+    height: 50px;       
+    border-radius: 30px;
+    padding: 10px;
+    margin-right: 10px; 
+    font-size: 20px;
+    background-color: rgb(211, 209, 209);
+}
+.amountt{
+    font-size: 30px;
+    font-weight: bold;  
+    margin-left: 100px;
+}
+
+.price{
+    font-size: 30px;
+    font-weight: bold; 
+    margin-left: 170px;
+}
+table, th, td {
+  margin: 20px;
+  /*border: 1px solid black;*/
+}
+table img{
+    width: 150px;
+    border-radius: 30px;
+}
+table td {
+    font-weight: bold;
+    font-size: 30px;
+}
+table tr{
+    padding-right: -30px;
+}
+.total span{
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Font chữ hiện đại */
+}
+
+.bigcart {
+    padding: 30px 0;
+}
+
+.cart {
+    background-color: #f8f9fa; /* Nền nhạt cho phần cart */
+    padding: 30px;
+    border-radius: 10px; /* Bo góc cho phần cart */
+}

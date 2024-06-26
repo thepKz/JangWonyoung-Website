@@ -1,0 +1,35 @@
+/* content */
+.product{
+    padding: 3% 0% 0% 0%;
+    margin-bottom: -20px;
+}
+
+.product-content img{
+    width: 200pxs;
+    border-radius: 60px;
+}
+
+.product-content {
+    line-height: 50%;
+    align-items: center;
+    margin: 0 50px 0 50px;
+}
+.product-content h2,.product-content h3,.product-content h4{
+    margin-left: 65px;
+}
+
+
+
+.product2{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.class{
+    background-image: url('backgroundslver.jpg');
+    background-size: 120%;
+    margin: 0%;
+    background-repeat: no-repeat;
+    padding-bottom: 2%;
+}
+/* End content*/

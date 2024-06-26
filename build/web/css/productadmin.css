@@ -1,0 +1,67 @@
+body {
+    margin: 0%;
+    background-color: lightgrey;
+}
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.divmenu ul li a{
+    display: block;
+    background-color: #ffffff;
+    border: black 1px solid;
+    text-align: center;
+    padding: 65px 95px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    width: 130px;
+}
+.ulmenu{
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+}
+.divmenu{
+    display: flex;
+}
+.bodymenu{
+    display: inline-block;
+}
+div ul li :hover{
+    background-color: grey;
+    color: #ffffff;
+}
+.product{
+    background-color: rgb(255, 255, 255);
+    border: black 1px solid;
+    border-radius: 20px;
+    height: 145px;
+    margin: 10px 50px;
+    display: flex;
+    padding-right: 120px;
+}
+.aohoodie{
+    font-size: x-large;
+    font-family: inherit;
+    margin-left: 110px;
+    margin-top: 60px;
+}
+.aohoodie1{
+    font-size: x-large;
+    font-family: inherit;
+    margin-left: 110px;
+    margin-top: 60px;
+    text-decoration: underline;
+}
+button{
+    margin-left: 700px;
+    padding: 10px 30px;
+    border-radius: 50px 50px 50px 50px; 
+    margin-top: 10px;
+}

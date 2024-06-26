@@ -1,0 +1,27 @@
+/* content */
+.product{
+    padding: 3% 0% 0% 0%;
+    margin-bottom: -20px;
+}
+
+.product-content img{
+    width: 100%;
+    border-radius: 60px;
+}
+
+.product-content {
+    line-height: 50%;
+    align-items: center;
+}
+
+.product1{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+.product2{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* End content*/

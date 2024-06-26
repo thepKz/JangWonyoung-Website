@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    margin: 0; 
+}
+
+header li,
+.tags,
+header h1 {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+.logo img {
+    max-width: 100px; 
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: black;
+    height: 60px;
+}
+.navbar-nav .nav-link {
+    color: aliceblue;
+    font-size: 16px;
+    margin: 0 15px;
+}
+.navbar-nav .nav-link:hover {
+    background-color: orange;
+}
+.navbar-collapse { /* Added style for background */
+    background-color: black; 
+}
+
+/* Search Bar Styles */
+.search {
+    transition: box-shadow 0.25s;
+}
+.search:focus-within {
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.75);
+}
+.search-input {
+    font-size: 16px;
+    font-family: 'Lexend', sans-serif;
+    color: #232222;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.search-input::placeholder,
+.search-icon {
+    color: rgba(0, 0, 0, 0.25);
+}
+
+/* Icon Styles */
+.logicon img, .carticon img {
+    width: 24px; /* Adjust as needed */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .navbar-collapse {
+        background-color: black; /* Or whatever your desired background color is */
+    }
+    .navbar-nav {
+        text-align: center; /* Center links on smaller screens */
+    }
+    .search {
+        width: 100%; /* Make search bar full width on smaller screens */
+        margin: 10px 0; 
+    }
+}
+/* =============== About scroll bar =============== */
+
+:root {
+    --primary-color: rgb(163, 163, 163);
+    /* Màu gốc của bạn */
+    --scroll-thumb-color: #d94f5c;
+    /* Màu của thanh kéo */
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+}
+
+/* Track là phần nền của thanh cuộn */
+::-webkit-scrollbar-track {
+    background-color: var(white);
+    /* Sử dụng màu gốc */
+}
+
+/* Thumb là thanh kéo mà bạn kéo để di chuyển thanh cuộn */
+::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-thumb-color);
+    /* Sử dụng màu của thanh kéo */
+    border-radius: 5px;
+}
+
+/* Hover Thumb là màu khi di chuột qua thanh cuộn */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #d43040;
+    /* Màu khi hover */
+}
+
+.scroll-top-icon {
+    visibility: hidden;
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    font-size: var(3rem);
+    color: var(--scroll-thumb-color);
+    /* Sử dụng màu của thanh kéo */
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.show-scroll {
+    visibility: visible;
+}
