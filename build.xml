@@ -10,6 +10,11 @@
 <project name="Storee" default="default" basedir=".">
     <description>Builds, tests, and runs the project Storee.</description>
     <import file="nbproject/build-impl.xml"/>
+    <target name="war" depends="compile">
+        <war destfile="dist/Storee.war" basedir="${build.classes.dir}">
+            <webxml file="web/WEB-INF/web.xml"/>
+        </war>
+    </target>
     <!--
 
     There exist several targets which are by default empty and which can be 
