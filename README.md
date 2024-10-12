@@ -15,5 +15,5 @@
 
 I forgot to include the SQL Server database, so I apologize for that!
 
-![Video Preview]https://github.com/user-attachments/assets/1dcde93f-0c8c-4953-9a4f-587466f3da51
+https://github.com/user-attachments/assets/1dcde93f-0c8c-4953-9a4f-587466f3da51
 
