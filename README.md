@@ -1,5 +1,5 @@
 # JangWonyoung-Website
-
+#NOTE: Nếu bạn học PRJ301 thì project này đang vi phạm MVC2 (Đây là Project MVC1, của HCM)
 ## Technology Stack
 
 - **Java**: 1.8
